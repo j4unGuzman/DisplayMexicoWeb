@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="99px" height="216px" viewBox="0 0 99 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon / caret / left</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="1.42108547e-14" y="0" width="99" height="216"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-/-caret-/-left">
+            <g id="Rectangle-4">
+                <use fill-opacity="0.7" fill="#419BF9" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="98" height="215"></rect>
+            </g>
+            <polygon id="Chevron" fill="#FFFFFF" transform="translate(49.512708, 109.549164) rotate(-180.000000) translate(-49.512708, -109.549164) " points="37.4762523 78 69.0254165 109.549164 37.4762523 141.098328 30 133.591054 54.0418901 109.549164 30 85.5072741"></polygon>
+        </g>
+    </g>
+</svg>
