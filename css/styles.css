@@ -46,10 +46,30 @@ html, body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    /*
-    display: block;
-    line-height: 1.42857143;
-    border-left: 1px solid #ddd;
-    */
 }
 
+#marcas {
+    background-color: #fff;
+    width: 100%;
+}
+#marcas a.thumbnail {
+    border: none;
+}
+
+#marcas a.thumbnail.active, #marcas a.thumbnail:focus, #marcas a.thumbnail:hover {
+    border: none;
+    cursor: default;
+}
+
+.conocenos {
+    background-color: inherit; 
+}
+
+.conocenos h1 {
+    color: #057EC8;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
