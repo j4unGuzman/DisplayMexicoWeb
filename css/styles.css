@@ -91,8 +91,11 @@ html, body {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    color: #FFF;
+    /*
+    color: #FFF; 
     color: rgba(255, 255, 255, 0.8);
+    */
+    color: #4D9AC2;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
@@ -111,7 +114,11 @@ html, body {
 }
 
 .social-icons .fa:hover, .social-icons .fa:active {
-    color: #FFF;
+    /*
+    color: #FFF; 
+    color: rgba(255, 255, 255, 0.8);
+    */
+    color: #4D9AC2;
     -webkit-box-shadow: 1px 1px 3px #333;
     -moz-box-shadow: 1px 1px 3px #333;
     box-shadow: 1px 1px 3px #333; 
@@ -131,6 +138,7 @@ html, body {
     transform: scale(1.1) rotate(360deg);
 }
  
+/*
 .social-icons .fa-adn{background-color:#504e54;} 
 .social-icons .fa-apple{background-color:#aeb5c5;} 
 .social-icons .fa-android{background-color:#A5C63B;}  
@@ -164,4 +172,57 @@ html, body {
 .social-icons .fa-windows{background-color:#12B6F3;}
 .social-icons .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;} 
 .social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
+*/
 
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion-ul li {
+    list-style: list-style: ;
+}
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+/*
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+*/
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02191'; /* Unicode character for "plus" sign (↑) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2193"; /* Unicode character for "minus" sign (↓) */
+}

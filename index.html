@@ -93,6 +93,9 @@
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <a href="#"><img src="images/assets/header/logotype_2x.png" width="128" height="112" border="0" class="float-left"></a>
+      <!-- 
+      <ul class="icon-circle list-unstyled list-inline" style="float: right; margin-top: 3%;"> 
+      -->
       <ul class="social-icons icon-circle list-unstyled list-inline" style="float: right; margin-top: 3%;"> 
         <li> 
           <a href="#"><i class="fa fa-twitter"></i></a>
@@ -104,7 +107,7 @@
           <a href="#"><i class="fa fa-google-plus"></i></a>
         </li>  
         <li>
-          <a href="#"><i class="fa fa-github fa-envelope"></i></a>
+          <a href="#"><i class="fa fa-envelope"></i></a>
         </li>  
       </ul> 
     </div>
@@ -525,6 +528,30 @@
         <div class="col-xs-5" style="background-color: white;">
           <h1 style="color: #C0C0C0; font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif; font-size: 20px; margin-top: 5%; font-weight: 500; line-height: 26.4px;">Preguntas frecuentes  </h1>
           <hr class="divider"></hr>
+
+          <ul class="accordion-ul"> 
+            <li>
+              <button class="accordion">¿Tiene alcance en toda la Republica Mexicana?</button>
+              <div class="panel">
+                <p>Lorem ipsum...</p>
+              </div>
+            </li>
+
+            <li>
+              <button class="accordion">Section 2</button>
+              <div class="panel">
+                <p>Lorem ipsum...</p>
+              </div>
+            </li>
+
+            <li>
+              <button class="accordion">Section 3</button>
+              <div class="panel">
+                <p>Lorem ipsum...</p>
+              </div>
+            </li>
+          </ul>
+
         </div>
       </div>
     </div>
@@ -533,6 +560,40 @@
 
 <footer>
   <script type="text/javascript">
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    /*
+    for (i = 0; i < acc.length; i++) {
+        acc[i].onclick = function(){
+            //Toggle between adding and removing the "active" class, to highlight the button that controls the panel 
+            this.classList.toggle("active");
+
+            //Toggle between hiding and showing the active panel
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        }
+    }
+    */
+
+
+    //Animated version
+    for (i = 0; i < acc.length; i++) {
+      acc[i].onclick = function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      }
+    }
+
   </script>
 </footer>
 
