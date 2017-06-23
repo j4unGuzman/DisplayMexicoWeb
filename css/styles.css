@@ -238,11 +238,45 @@ div.panel {
 }
 
 button.accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    content: '\02191'; /* Unicode character for "plus" sign (↑) */
+    /* Unicode character for "plus" sign (+) */
+    /*
+    content: '\02795'; 
+    */
+
+    /* Unicode character for "plus" sign (↑) */
+    /*
+    content: '\02191'; 
+    */
+
+    /* Image */
+    /*
+    content: url('../images/icons/bottom_arrow.png');
+    */
+
     font-size: 13px;
     color: #777;
     float: right;
     margin-left: 5px;
+
+    content: '\02191'; 
+}
+
+
+button.accordion.active:after {
+    /* Unicode character for "minus" sign (-) */
+    /*
+    content: "\2796"; 
+    */
+
+    /* Unicode character for "minus" sign (↓) */
+    /*
+    content: "\2193"; 
+
+    */
+    /* Image */
+    /*
+    content: url('../images/icons/top_arrow.png');
+    */
+    content: "\2193"; 
 }
 
