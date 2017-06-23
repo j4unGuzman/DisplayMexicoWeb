@@ -175,25 +175,48 @@ html, body {
 */
 
 /* Style the buttons that are used to open and close the accordion panel */
-.accordion-ul li {
-    list-style: list-style: ;
+ol.accordion-ol {
+    list-style-type: decimal;
+    list-style-position: outside;
+}
+
+ol.accordion-ol li {
+    position: relative;
+    color: #6C9BCD;
+    left: 10%;
+    line-height: 26.4px;
+    font-size: 50px;
+    text-align: left;
+    width: 100%;
 }
 
 button.accordion {
+    /* 
     background-color: #eee;
-    color: #444;
+    */
+    background-color: inherit;
+    color: #444; 
     cursor: pointer;
-    padding: 18px;
-    width: 100%;
+    /* padding: 18px; */
+    padding: 0px
+    margin: 0px
+    width: 80%;
     text-align: left;
+    /* border: none; */
     border: none;
     outline: none;
     transition: 0.4s;
+    /* font-size: 100%; */
+    font-size: 18px;
+    position: relative;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 button.accordion.active, button.accordion:hover {
+    /* 
     background-color: #ddd;
+    */
+    background-color: inherit;
 }
 
 /* Style the accordion panel. Note: hidden by default */
@@ -211,6 +234,9 @@ div.panel {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    font-size: 13px;
+    border: 1px solid transparent;
+    width: 80%;
 }
 
 button.accordion:after {
@@ -226,3 +252,20 @@ button.accordion.active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
     content: "\2193"; /* Unicode character for "minus" sign (↓) */
 }
+
+ol.accordion2:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    content: '\02191'; /* Unicode character for "plus" sign (↑) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+ol.accordion2.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "\2193"; /* Unicode character for "minus" sign (↓) */
+}
+
+
+
