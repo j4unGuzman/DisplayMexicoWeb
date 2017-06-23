@@ -198,8 +198,6 @@ button.accordion {
     color: #444; 
     cursor: pointer;
     /* padding: 18px; */
-    padding: 0px
-    margin: 0px
     width: 80%;
     text-align: left;
     /* border: none; */
@@ -247,25 +245,4 @@ button.accordion:after {
     float: right;
     margin-left: 5px;
 }
-
-button.accordion.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-    content: "\2193"; /* Unicode character for "minus" sign (↓) */
-}
-
-ol.accordion2:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    content: '\02191'; /* Unicode character for "plus" sign (↑) */
-    font-size: 13px;
-    color: #777;
-    float: right;
-    margin-left: 5px;
-}
-
-ol.accordion2.active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-    content: "\2193"; /* Unicode character for "minus" sign (↓) */
-}
-
-
 
