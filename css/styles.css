@@ -58,6 +58,10 @@ html, body {
     cursor: default;
 }
 
+.marcas-txt {
+    color: #C7C7C7;
+}
+
 .conocenos {
     background-color: inherit; 
 }
@@ -280,3 +284,243 @@ button.accordion.active:after {
     content: "\2193"; 
 }
 
+.divider {
+    color: #D2D2D1;
+    background-color: #D2D2D1;
+    height: 1px;
+}
+
+.col-centered{
+    display: block;
+    /*
+    */
+    margin-left: auto;
+    margin-right: auto;
+    /*
+    margin-left: 0px;
+    margin-right: 0px;
+    */
+    text-align: center;
+}
+
+.compromiso {
+    color: #227CA9; 
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";    
+    font-style: normal;
+    font-variant: normal;
+    font-size: 30px;
+}
+
+.apostrofe::before {
+    content: "\00a0\00a0\00a0\00a0\00a0\"";
+}
+
+.logo-footer {
+    height: 80px;
+    width: 488px; 
+}
+
+.contactanos {
+    color: #C0C0C0;
+}
+
+.contactanos a {
+    /*
+    float: right;
+    position: relative;
+    right: 20%;
+    */
+}
+
+.contactanos a:link {
+    /*
+    color: red;
+    */
+    color: #C0C0C0;
+}
+
+/* visited link */
+.contactanos a:visited {
+    /*
+    color: green;
+    */
+    color: black;
+}
+
+/* mouse over link */
+.contactanos a:hover {
+    /*
+    color: hotpink;
+    */
+    color: #C0C0C0;
+}
+
+/* selected link */
+.contactanos a:active {
+    color: blue;
+}
+
+.title-form {
+    color: #C0C0C0;
+}
+
+.form-enviar {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.btn-info {
+    background-color: #429BF8;
+    width: 40%;
+}
+
+.lastpage {
+    background-color: white;
+    height: 100%;
+    /*
+    display: table-row;
+    */
+}
+
+.lastpage .no-float {
+    /* 
+    */
+    display: table-cell;
+    float: none;
+}
+
+
+/* --------------------------------------------------- */
+/* ------------ RESPONSIVE UTILITIES ----------------- */
+/* --------------------------------------------------- */
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 992px) and (max-width: 1169px) and (orientation : landscape) {
+   
+}
+
+@media (min-width: 992px) and (max-width: 1169px) and (orientation : portrait) {
+    
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 767px) and (max-width: 992px) and (orientation : landscape) {
+    
+    ol.accordion-ol li {
+        left: 20%;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 992px) and (orientation : portrait) {
+
+    ol.accordion-ol li {
+        left: 20%;
+    }
+
+}
+
+/* Landscape phones and down */
+@media  (min-width: 0px) and (max-width: 766px) and (orientation : landscape) {
+    
+    .marcas-txt {
+        font-size: 10px;
+    }
+
+    .conocenos h1 {
+        font-size: 25px;
+    }
+    
+    .jumbotron {
+        font-size: 25px;
+    }
+    
+    ol.accordion-ol li {
+        left: 20%;
+    }
+
+    .compromiso {
+        font-size: 20px;
+    }
+
+    .logo-footer {
+        height: 80%;
+        width: 80%;
+    }
+
+    .apostrofe::before {
+        content: "\"";
+    }
+
+    .contactanos {
+        font-size: 50%;
+    }
+
+    .jumbotron p.title-form {
+        font-size: 60%;
+    }
+
+    .btn-info {
+        background-color: #429BF8;
+        width: 60%;
+    }
+
+    .lastpage .no-float {
+        display: table-cell;
+        float: left;
+    }
+}
+
+/* Landscape phones and down */
+@media  (min-width: 0px) and (max-width: 766px) and (orientation : portrait) {
+    
+    .marcas-txt {
+        font-size: 10px;
+    }
+
+    .conocenos h1 {
+        font-size: 25px;
+    }
+    
+    .jumbotron {
+        font-size: 25px;
+    }
+    
+    ol.accordion-ol li {
+        left: 23%;
+    }
+
+    .compromiso {
+        font-size: 20px;
+    }
+
+    .logo-footer {
+        height: 80%;
+        width: 80%;
+    }
+
+    .apostrofe::before {
+        content: "\"";
+    }
+
+    .contactanos {
+        font-size: 50%;
+    }
+
+    .jumbotron p.title-form {
+        font-size: 60%;
+    }
+
+    .btn-info {
+        background-color: #429BF8;
+        width: 60%;
+    }
+
+    .lastpage .no-float {
+        display: table-cell;
+        float: left;
+    }
+
+}
