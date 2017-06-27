@@ -1,3 +1,7 @@
+<?php 
+//include'lib/email.php'; 
+require 'lib/PHPMailer/PHPMailerAutoload.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -175,11 +179,11 @@
 
     <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
+      <span class="sr-only">Anterior</span>
     </a>
     <a class="right carousel-control" href="#carousel1" role="button" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
+      <span class="sr-only">Siguiente</span>
     </a>
 
   </div>
@@ -192,7 +196,7 @@
         <img src="images/assets/products/custom.png" alt="...">
         <div class="caption">
           <h3>EXPOSICIONES</h3>
-          <p>Contamos con 20 años siendo Profesionales en la Logística, planeación y ejecución de exposiciones. Contando así con el equipo necesario para lograr el éxito. Tal es el ejemplo que para que para el montaje un stand se neseciten solo 9 minutos.</p>
+          <p>Contamos con 20 a&ntilde;os siendo Profesionales en la Log&iacute;stica, planeaci&oacute;n y ejecuci&oacute;n de exposiciones. Contando as&iacute; con el equipo necesario para lograr el &eacute;xito. Tal es el ejemplo que para que para el montaje un stand se necesiten solo 9 minutos.</p>
         </div>
       </div>
     </div>
@@ -202,7 +206,7 @@
         <img src="images/assets/products/expo.png" alt="...">
         <div class="caption">
           <h3>CUSTOM</h3>
-          <p>Diseños únicos generados a partir de la idea del cliente transmitiendo la escencia de la empresa, utilizando así materiales como la madera, mdf, acrílicos, iluminación LED, entre otros.</p>
+          <p>Dise&ntilde;os &uacute;nicos generados a partir de la idea del cliente transmitiendo la escencia de la empresa, utilizando as&iacute; materiales como la madera, mdf, acr&iacute;licos, iluminaci&oacute;n LED, entre otros.</p>
           
         </div>
       </div>
@@ -213,7 +217,7 @@
         <img src="images/assets/products/sistema.png" alt="...">
         <div class="caption">
           <h3>SISTEMA</h3>
-          <p>Diseños creados de manera personalizada reasltando la imagen del cliente utilizando como material principal el sistema de aluminio octagonal.</p>
+          <p>Dise&ntilde;s creados de manera personalizada resaltando la imagen del cliente utilizando como material principal el sistema de aluminio octagonal.</p>
           
         </div>
       </div>
@@ -222,8 +226,8 @@
   </div>
 
   <div class="jumbotron vertical-center">
-    <h1>¿Quienes Somos?</h1>
-    <p>Somos una sempresa 100 % mexicana con 20 años de experiencia en el ramo de las expocisiones, respaldada con mas de 100 cleintes activos, contando así con los recursos humanos, materiales y tecnológicos de la mas alta calidad para logar la satisfaccion total del cliente.</p>
+    <h1>&iquest;Somos?</h1>
+    <p>Somos una sempresa 100 % mexicana con 20 a&ntilde;os de experiencia en el ramo de las expocisiones, respaldada con mas de 100 cleintes activos, contando así con los recursos humanos, materiales y tecnol&oacute;gicos de la mas alta calidad para logar la satisfaccion total del cliente.</p>
   </div>
 
 
@@ -234,7 +238,7 @@
         <img src="images/assets/about_us/icon/mision_2x.png" alt="...">
       </div>
       <div class="caption">
-        <h3>Mision: Diseñar, fabricar y crear los stands</h3>
+        <h3>Mision: Dise&ntilde;ar, fabricar y crear los stands</h3>
       </div>
     </div>
 
@@ -243,7 +247,7 @@
         <img src="images/assets/about_us/icon/vision_2x.png" alt="...">
       </div>
       <div class="caption">
-        <h3>Visión: Ser la empresa líder en el montaje de stands, displays y exposiciones de todo tipo logrando con esto, la satisfacción total del cliente por medio de nuestro compromiso en calidad, tiempo material y servicio.</h3>
+        <h3>Visi&oacute;n: Ser la empresa l&iacute;der en el montaje de stands, displays y exposiciones de todo tipo logrando con esto, la satisfacción total del cliente por medio de nuestro compromiso en calidad, tiempo material y servicio.</h3>
       </div>
     </div>
 
@@ -257,7 +261,7 @@
         <img src="images/assets/about_us/icon/values_2x.png" alt="...">
       </div>
       <div class="caption">
-        <h3>Valores: Respeto formalidad, honor, sabiduría.</h3>
+        <h3>Valores: Respeto formalidad, honor, sabidur&iacute;a.</h3>
       </div>
     </div>
 
@@ -266,7 +270,7 @@
         <img src="images/assets/about_us/icon/objective_2x.png" alt="...">
       </div>
       <div class="caption">
-        <h3>Objetivo:Somos una empresa comprometida con sus clientes y creamos un equipo para lograr juntos el éxito.</h3>
+        <h3>Objetivo:Somos una empresa comprometida con sus clientes y creamos un equipo para lograr juntos el &eacute;xito.</h3>
       </div>
     </div>
 
@@ -538,7 +542,7 @@
 
 <div style="background-color: #3EA5D2;">
   <div class="jumbotron">
-    <h1 style="margin: 2%;">¿Alguna Pregunta?</h1>
+    <h1 style="margin: 2%;">&iquest;Alguna Pregunta?</h1>
     <div class="container">
 
       <div class="row lastpage">
@@ -548,7 +552,7 @@
           <hr class="divider"></hr>
 
           <address class="contactanos">
-            email: <a href="mailto:contacto@displaymexico.com">contacto@displaymexico.com</a><br>
+            Email: <a href="mailto:contacto@displaymexico.com">contacto@displaymexico.com</a><br>
             <a href="mailto:contacto@displaymexico.com">displaymexico@prodigy.net.mx</a><br>
             <!-- 
             Tel: <a href="tel:+01-525-541-77777">5541 7777 y 78</a><br>
@@ -560,11 +564,11 @@
           <p class="title-form">Dejenos un comentario. O solo diga hola.</p>
 
           <div class="form-enviar">
-            <form method="post">
+            <form action="index.php" method="post">
               <fieldset class="form-group">
                 <div class="row">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <input class="form-control" type="text" name="name" required placeholder="Nombre" size="60%"/>
+                    <input class="form-control" type="text" name="name" required placeholder="Nombre" size="60%" oninput="setCustomValidity('')" oninvalid="this.setCustomValidity('El nombre no puede ser vacio')"/>
                   </div>
                 </div>
                 <div class="row">
@@ -572,7 +576,7 @@
                 </div>
                 <div class="row">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <input class="form-control" type="text" name="lastname" required placeholder="Apellido" size="60%"/>
+                    <input class="form-control" type="text" name="lastname" required placeholder="Apellido" size="60%" oninput="setCustomValidity('')" oninvalid="this.setCustomValidity('El apellido no puede ser vacio')"/>
                   </div>
                 </div>
                 <div class="row">
@@ -580,7 +584,7 @@
                 </div>
                 <div class="row">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <input class="form-control" type="email" name="email" required placeholder="Correo electronico" size="60%"/>
+                    <input class="form-control" type="email" name="email" required placeholder="Correo electronico" size="60%" oninput="setCustomValidity('')" oninvalid="this.setCustomValidity('Correo invalido')"/>
                   </div>
                 </div>
                 <div class="row">
@@ -588,7 +592,7 @@
                 </div>
                 <div class="row">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <textarea class="form-control" name="comentario" rows="8" placeholder="Escribe un comentario..." required></textarea>
+                    <textarea class="form-control" name="comment" rows="8" placeholder="Escribe un comentario..." required oninput="setCustomValidity('')" oninvalid="this.setCustomValidity('Se requiere un comentario')"></textarea>
                   </div>
                 </div>
                 <div class="row">
@@ -613,42 +617,42 @@
 
           <ol class="accordion-ol"> 
             <li>
-              <button class="accordion">¿Tiene alcance en toda la Republica Mexicana?</button>
+              <button class="accordion">&iquest;Tiene alcance en toda la Republica Mexicana?</button>
               <div class="panel">
                 <p>Lorem ipsum...</p>
               </div>
             </li>
 
             <li style="margin-top: 0px;">
-              <button class="accordion">¿Que incluye el servicio?</button>
+              <button class="accordion">&iquest;Que incluye el servicio?</button>
               <div class="panel">
                 <p>Lorem ipsum...</p>
               </div>
             </li>
 
             <li style="margin-top: 0px;">
-              <button class="accordion">¿Que formas de pago manejan?</button>
+              <button class="accordion">&iquest;Que formas de pago manejan?</button>
               <div class="panel">
                 <p>Lorem ipsum...</p>
               </div>
             </li>
 
             <li style="margin-top: 0px;">
-              <button class="accordion">¿Que tipo de materiales utilizan?</button>
+              <button class="accordion">&iquest;Que tipo de materiales utilizan?</button>
               <div class="panel">
                 <p>Lorem ipsum...</p>
               </div>
             </li>
 
             <li style="margin-top: 0px;">
-              <button class="accordion">¿Cuanto tiempo de anticipaci&oacute;n debo solicitar mi stand?</button>
+              <button class="accordion">&iquest;Cuanto tiempo de anticipaci&oacute;n debo solicitar mi stand?</button>
               <div class="panel">
                 <p>Lorem ipsum...</p>
               </div>
             </li>
 
             <li style="margin-top: 0px;">
-              <button class="accordion">¿En cuanto tiempo obtendr&eacute; respuesta para mi proyecto?</button>
+              <button class="accordion">&iquest;En cuanto tiempo obtendr&eacute; respuesta para mi proyecto?</button>
               <div class="panel">
                 <p>Lorem ipsum...</p>
               </div>
@@ -737,6 +741,145 @@
 
   </script>
 </footer>
+
+<?php
+
+// Email address verification
+function isEmail($email) {
+    return filter_var($email, FILTER_VALIDATE_EMAIL);
+}
+
+if($_POST) {
+
+    $mail = new PHPMailer;
+
+    //$mail->SMTPDebug = 3;                               // Enable verbose debug output
+
+    $mail->isSMTP();                                      // Set mailer to use SMTP
+    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+    $mail->Username = 'cesarchamal@gmail.com';                 // SMTP username
+    $mail->Password = 'ba286129';                           // SMTP password
+    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+    $mail->Port = 587;                                    // TCP port to connect to
+
+    //$mail->addCC('cc@example.com');
+    //$mail->addBCC('bcc@example.com');
+
+    //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+    //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+    $mail->isHTML(true);                                  // Set email format to HTML
+
+    // Enter the email where you want to receive the message
+    //$emailTo = 'tomaszseni@gmail.com';
+    $emailTo = 'ces_ch@hotmail.com';
+    //$emailTo = 'st@coaala.com';
+
+    $name = addslashes(trim($_POST['name']));
+    $lastname = addslashes(trim($_POST['lastname']));
+    $email = addslashes(trim($_POST['email']));
+    $comment = addslashes(trim($_POST['comment']));
+
+    $array = array( 
+                    'nameMessage' => '', 'lastnameMessage' => '',
+                    'emailMessage' => '', 'commentMessage' => ''
+                  );
+
+    if($name == '') {
+        $array['nameMessage'] = 'Nombre no valido';
+    }
+    
+    if($lastname == '') {
+        $array['lastnameMessage'] = 'Apellido no valido';
+    }
+    
+    if(!isEmail($email)) {
+        $array['emailMessage'] = 'Correo invalido!';
+    }
+
+    if($comment == '') {
+        $array['commentMessage'] = 'Comentario no valido';
+    }
+    
+    $message = "<h3 style='color: #000000;'>Comentario</h3>
+                <div style='margin:0px;padding:0px;width:5%;box-shadow: 10px 10px 5px #888888;border:1px solid #000000;-moz-border-radius-bottomleft:0px;
+                                -webkit-border-bottom-left-radius:0px;border-bottom-left-radius:0px;-moz-border-radius-bottomright:0px;
+                                -webkit-border-bottom-right-radius:0px;border-bottom-right-radius:0px;-moz-border-radius-topright:0px;
+                                -webkit-border-top-right-radius:0px;border-top-right-radius:0px;-moz-border-radius-topleft:0px;
+                                -webkit-border-top-left-radius:0px;border-top-left-radius:0px;'>
+                    <table style='border-collapse: collapse;border-spacing: 0;width:100%;height:100%;margin:0px;padding:0px;'>
+                        <tr style='background-color:#ffaaaa;'> 
+                            <td style='vertical-align:middle;border:1px solid #000000;border-width:1px 1px 1px 0px;text-align:left;
+                            padding:7px;font-size:10px;font-family:Arial;font-weight:normal;color:#000000;'>
+                                <label>Nombre</label>
+                            </td>
+                            <td style='vertical-align:middle;border:1px solid #000000;border-width:1px 1px 1px 1px;text-align:left;
+                            padding:7px;font-size:10px;font-family:Arial;font-weight:normal;color:#000000;'>
+                                <label>$name</label>
+                           </td>
+                        </tr>
+                        <tr style='background-color:#ffffff;'> 
+                            <td style='vertical-align:middle;border:1px solid #000000;border-width:1px 1px 1px 0px;text-align:left;
+                            padding:7px;font-size:10px;font-family:Arial;font-weight:normal;color:#000000;'>
+                                <label>Apellido</label>
+                            </td>
+                            <td style='vertical-align:middle;border:1px solid #000000;border-width:1px 1px 1px 1px;text-align:left;
+                            padding:7px;font-size:10px;font-family:Arial;font-weight:normal;color:#000000;'>
+                                <label>$lastname</label>
+                           </td>
+                        </tr>
+                        <tr style='background-color:#ffaaaa;'> 
+                            <td style='vertical-align:middle;border:1px solid #000000;border-width:0px 1px 1px 0px;text-align:left;
+                            padding:7px;font-size:10px;font-family:Arial;font-weight:normal;color:#000000;'>
+                                <label>Correo electronico</label>
+                            </td>
+                            <td style='vertical-align:middle;border:1px solid #000000;border-width:0px 1px 1px 0px;text-align:left;
+                            padding:7px;font-size:10px;font-family:Arial;font-weight:normal;color:#000000;'>
+                                <label>$email</label>
+                           </td>
+                        </tr>
+                        <tr style='background-color:#ffffff;'> 
+                            <td style='vertical-align:middle;border:1px solid #000000;border-width:0px 1px 1px 0px;text-align:left;
+                            padding:7px;font-size:10px;font-family:Arial;font-weight:normal;color:#000000;'>
+                                <label>Comentario</label>
+                            </td>
+                            <td style='vertical-align:middle;border:1px solid #000000;border-width:0px 1px 1px 0px;text-align:left;
+                            padding:7px;font-size:10px;font-family:Arial;font-weight:normal;color:#000000;'>
+                                <label>$comment</label>
+                           </td>
+                        </tr>
+                    </table>
+                </div>
+               ";
+    
+    if( 
+        $name != '' && isEmail($email) 
+        && $lastname != '' && $comment != '' 
+    ) {
+        // Send email
+        //$headers = "From: " . $clientEmail . " <" . $clientEmail . ">" . "\r\n" . "Reply-To: " . $clientEmail;
+        //mail($emailTo, $name . " FMJJ registro torneo", $message, $headers);
+        $mail->setFrom($email, 'Display Mexico');
+        $mail->addReplyTo($email, 'No responder este correo');
+        $mail->addAddress($emailTo, $name);     // Add a recipient
+        $mail->Subject = $name . " Display Mexico comentario";
+        $mail->Body    = $message;
+        $mail->AltBody = $message;
+
+        if(!$mail->send()) {
+            //echo 'Message could not be sent.';
+            //echo 'Mailer Error: ' . $mail->ErrorInfo;
+        } else {
+            //echo 'Message has been sent';
+        }
+        
+    }
+
+    //echo json_encode($array);
+       
+}
+
+?>
 
 </body>
 </html>
