@@ -758,8 +758,8 @@ if($_POST) {
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'cesarchamal@gmail.com';                 // SMTP username
-    $mail->Password = 'ba286129';                           // SMTP password
+    $mail->Username = 'jaguzmang@gmail.com';                 // SMTP username
+    $mail->Password = 'pass';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
@@ -771,9 +771,9 @@ if($_POST) {
     $mail->isHTML(true);                                  // Set email format to HTML
 
     // Enter the email where you want to receive the message
-    //$emailTo = 'tomaszseni@gmail.com';
-    $emailTo = 'ces_ch@hotmail.com';
-    //$emailTo = 'st@coaala.com';
+    $emailTo = 'jaguzmang@gmail.com';
+    //$emailTo = 'contacto@displaymexico.com';
+        
 
     $name = addslashes(trim($_POST['name']));
     $lastname = addslashes(trim($_POST['lastname']));
