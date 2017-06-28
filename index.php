@@ -96,11 +96,11 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 <header>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <a href="#"><img src="images/assets/header/logotype_2x.png" width="128" height="112" border="0" class="float-left"></a>
+      <a href="#"><img class="logo" src="images/assets/header/logotype_2x.png" width="128" height="112" border="0" class="float-left"></a>
       <!-- 
       <ul class="icon-circle list-unstyled list-inline" style="float: right; margin-top: 3%;"> 
       -->
-      <ul class="social-icons icon-circle list-unstyled list-inline" style="float: right; margin-top: 3%;"> 
+      <ul class="social-icons icon-circle list-unstyled list-inline social" style="float: right; margin-top: 3%;"> 
         <li> 
           <a href="#"><i class="fa fa-twitter"></i></a>
         </li>  
@@ -116,7 +116,6 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       </ul> 
     </div>
   </nav>
-
 </header>
 
 <div class="container">
@@ -191,7 +190,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
   <div class="row">
 
-    <div class="col-sm-4 col-md-4">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
       <div class="thumbnail">
         <img src="images/assets/products/custom.png" alt="...">
         <div class="caption">
@@ -201,7 +200,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       </div>
     </div>
 
-    <div class="col-sm-4 col-md-4">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
       <div class="thumbnail">
         <img src="images/assets/products/expo.png" alt="...">
         <div class="caption">
@@ -212,12 +211,12 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       </div>
     </div>
 
-    <div class="col-sm-4 col-md-4">
+    <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
       <div class="thumbnail">
         <img src="images/assets/products/sistema.png" alt="...">
         <div class="caption">
           <h3>SISTEMA</h3>
-          <p>Dise&ntilde;s creados de manera personalizada resaltando la imagen del cliente utilizando como material principal el sistema de aluminio octagonal.</p>
+          <p>Dise&ntilde;os creados de manera personalizada resaltando la imagen del cliente utilizando como material principal el sistema de aluminio octagonal.</p>
           
         </div>
       </div>
@@ -227,53 +226,59 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
   <div class="jumbotron vertical-center">
     <h1>&iquest;Somos?</h1>
-    <p>Somos una sempresa 100 % mexicana con 20 a&ntilde;os de experiencia en el ramo de las expocisiones, respaldada con mas de 100 cleintes activos, contando asÃ­ con los recursos humanos, materiales y tecnol&oacute;gicos de la mas alta calidad para logar la satisfaccion total del cliente.</p>
+    <p>Somos una sempresa 100 % mexicana con 20 a&ntilde;os de experiencia en el ramo de las expocisiones, respaldada con mas de 100 cleintes activos, contando así con los recursos humanos, materiales y tecnol&oacute;gicos de la mas alta calidad para logar la satisfaccion total del cliente.</p>
   </div>
 
 
   <div class="row about">
 
-    <div class="thumbnail float-left element">
-      <div class="float-left">
-        <img src="images/assets/about_us/icon/mision_2x.png" alt="...">
-      </div>
-      <div class="caption">
-        <h3>Mision: Dise&ntilde;ar, fabricar y crear los stands</h3>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="thumbnail float-left element">
+        <div class="float-left">
+          <img src="images/assets/about_us/icon/mision_2x.png" alt="...">
+        </div>
+        <div class="caption">
+          <h3>Mision: Dise&ntilde;ar, fabricar y crear los stands</h3>
+        </div>
       </div>
     </div>
 
-    <div class="thumbnail float-right element">
-      <div class="float-left">
-        <img src="images/assets/about_us/icon/vision_2x.png" alt="...">
-      </div>
-      <div class="caption">
-        <h3>Visi&oacute;n: Ser la empresa l&iacute;der en el montaje de stands, displays y exposiciones de todo tipo logrando con esto, la satisfacciÃ³n total del cliente por medio de nuestro compromiso en calidad, tiempo material y servicio.</h3>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="thumbnail float-right element">
+        <div class="float-left">
+          <img src="images/assets/about_us/icon/vision_2x.png" alt="...">
+        </div>
+        <div class="caption">
+          <h3>Visi&oacute;n: Ser la empresa l&iacute;der en el montaje de stands, displays y exposiciones de todo tipo logrando con esto, la satisfacción total del cliente por medio de nuestro compromiso en calidad, tiempo material y servicio.</h3>
+        </div>
       </div>
     </div>
 
   </div>
 
-
   <div class="row about">
 
-    <div class="thumbnail float-left element">
-      <div class="float-left">
-        <img src="images/assets/about_us/icon/values_2x.png" alt="...">
-      </div>
-      <div class="caption">
-        <h3>Valores: Respeto formalidad, honor, sabidur&iacute;a.</h3>
-      </div>
-    </div>
-
-    <div class="thumbnail float-right element">
-      <div class="float-left">
-        <img src="images/assets/about_us/icon/objective_2x.png" alt="...">
-      </div>
-      <div class="caption">
-        <h3>Objetivo:Somos una empresa comprometida con sus clientes y creamos un equipo para lograr juntos el &eacute;xito.</h3>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="thumbnail float-left element">
+        <div class="float-left">
+          <img src="images/assets/about_us/icon/values_2x.png" alt="...">
+        </div>
+        <div class="caption">
+          <h3>Valores: Respeto formalidad, honor, sabidur&iacute;a.</h3>
+        </div>
       </div>
     </div>
 
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="thumbnail float-right element">
+        <div class="float-left">
+          <img src="images/assets/about_us/icon/objective_2x.png" alt="...">
+        </div>
+        <div class="caption">
+          <h3>Objetivo:Somos una empresa comprometida con sus clientes y creamos un equipo para lograr juntos el &eacute;xito.</h3>
+        </div>
+      </div>
+    </div>
     
   </div>
 </div>
@@ -291,37 +296,37 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
     <div class="row">
 
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/dulces-karla_logo.png" alt="...">
         </a>
       </div>
 
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/logo2.png" alt="...">
         </a>
       </div>
 
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/DegasaProtec.png" alt="...">
         </a>
       </div>
       
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/ibarra_logo.png" alt="...">
         </a>
       </div>
 
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/Logo-cdmx.png" alt="...">
         </a>
       </div>
     
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/powerade.png" alt="...">
         </a>
@@ -332,37 +337,37 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
     <div class="row">
 
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/profile-157457646.v11.png" alt="...">
         </a>
       </div>
 
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/sistema-educativo-justo-sierra.png" alt="...">
         </a>
       </div>
 
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/Unknown.png" alt="...">
         </a>
       </div>
 
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/logoSAR21.png" alt="...">
         </a>
       </div>
       
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/kimberly-clark.png" alt="...">
         </a>
       </div>
 
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/canelstipo.png" alt="...">
         </a>
@@ -372,13 +377,13 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
     <div class="row">
     
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/LOGO-TRANSVISION-BIKE-01-1.png" alt="...">
         </a>
       </div>
 
-      <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2">
+      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/tec.png" alt="...">
         </a>
@@ -548,7 +553,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       <div class="row lastpage">
 
         <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 no-float">
-          <h1 style="color: #C0C0C0; font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif; font-size: 20px; margin-top: 5%; font-weight: 500; line-height: 26.4px;">Cont&aacute;ctanos</h1>
+          <p class="contactanos-title">Cont&aacute;ctanos</p>
           <hr class="divider"></hr>
 
           <address class="contactanos">
@@ -612,7 +617,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
         <div class="col-xs-12 col-sm-1 col-md-1 col-lg-1 no-float" style="height: 10px; background-color: #0081C5;"></div>
         
         <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 no-float">
-          <h1 style="color: #C0C0C0; font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif; font-size: 20px; margin-top: 5%; font-weight: 500; line-height: 26.4px;">Preguntas frecuentes  </h1>
+          <p class="contactanos-title">Preguntas frecuentes</p>
           <hr class="divider"></hr>
 
           <ol class="accordion-ol"> 
@@ -774,7 +779,6 @@ if($_POST) {
     $emailTo = 'jaguzmang@gmail.com';
     //$emailTo = 'contacto@displaymexico.com';
         
-
     $name = addslashes(trim($_POST['name']));
     $lastname = addslashes(trim($_POST['lastname']));
     $email = addslashes(trim($_POST['email']));
