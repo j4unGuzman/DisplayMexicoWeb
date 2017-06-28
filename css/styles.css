@@ -11,6 +11,10 @@ html, body {
     height:100%;
 }
 
+header {
+    height: 25% !important;
+}
+
 .jumbotron {
     padding-right: 60px;
     padding-left: 60px;
@@ -37,7 +41,7 @@ html, body {
 .element {
     overflow: auto;
     height: 250px;
-    width: 50%;
+    width: 100%;
     position: relative;
     top:0;
     padding: 0;
@@ -399,6 +403,14 @@ button.accordion.active:after {
     float: none;
 }
 
+.contactanos-title {
+    color: #C0C0C0; 
+    font-size: 16px; 
+    margin-top: 5%; 
+    font-weight: 500; 
+    line-height: 26.4px;    
+}
+
 
 /* --------------------------------------------------- */
 /* ------------ RESPONSIVE UTILITIES ----------------- */
@@ -407,10 +419,18 @@ button.accordion.active:after {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 992px) and (max-width: 1169px) and (orientation : landscape) {
    
+    ol.accordion-ol li {
+        left: 20%;
+    }
+
 }
 
 @media (min-width: 992px) and (max-width: 1169px) and (orientation : portrait) {
-    
+   
+    ol.accordion-ol li {
+        left: 20%;
+    }
+
 }
 
 /* Landscape phone to portrait tablet */
@@ -420,6 +440,22 @@ button.accordion.active:after {
         left: 20%;
     }
 
+    .logo {
+        height: 20%;
+        width: 20%;
+    }
+
+    .social {
+        -ms-transform: scale(0.6, 0.6); /* IE 9 */
+        -webkit-transform: scale(0.6, 0.6); /* Safari */
+        transform: scale(0.6, 0.6);
+    }
+
+    header {
+        height: 30% !important;
+        clear: both;
+    }
+
 }
 
 @media (min-width: 767px) and (max-width: 992px) and (orientation : portrait) {
@@ -427,6 +463,23 @@ button.accordion.active:after {
     ol.accordion-ol li {
         left: 20%;
     }
+
+    .logo {
+        height: 20%;
+        width: 20%;
+    }
+
+    .social {
+        -ms-transform: scale(0.6, 0.6); /* IE 9 */
+        -webkit-transform: scale(0.6, 0.6); /* Safari */
+        transform: scale(0.6, 0.6);
+    }
+
+    header {
+        height: 30% !important;
+        clear: both;
+    }
+
 
 }
 
@@ -479,6 +532,23 @@ button.accordion.active:after {
         display: table-cell;
         float: left;
     }
+
+    .logo {
+        height: 20%;
+        width: 20%;
+    }
+
+    .social {
+        -ms-transform: scale(0.6, 0.6); /* IE 9 */
+        -webkit-transform: scale(0.6, 0.6); /* Safari */
+        transform: scale(0.6, 0.6);
+    }
+
+    header {
+        height: 30% !important;
+        clear: both;
+    }
+
 }
 
 /* Landscape phones and down */
@@ -496,8 +566,13 @@ button.accordion.active:after {
         font-size: 25px;
     }
     
+    .contactanos-h1 {
+        font-size: 6vw;
+    }
+
     ol.accordion-ol li {
         left: 23%;
+        font-size: 13vw;
     }
 
     .compromiso {
@@ -515,6 +590,7 @@ button.accordion.active:after {
 
     .contactanos {
         font-size: 50%;
+        font-size: 3vw;
     }
 
     .jumbotron p.title-form {
@@ -523,12 +599,28 @@ button.accordion.active:after {
 
     .btn-info {
         background-color: #429BF8;
-        width: 60%;
+        width: 70%;
     }
 
     .lastpage .no-float {
         display: table-cell;
         float: left;
+    }
+
+    .logo {
+        height: 20%;
+        width: 20%;
+    }
+
+    .social {
+        -ms-transform: scale(0.6, 0.6); /* IE 9 */
+        -webkit-transform: scale(0.6, 0.6); /* Safari */
+        transform: scale(0.6, 0.6);
+    }
+
+    header {
+        height: 30% !important;
+        clear: both;
     }
 
 }
