@@ -226,7 +226,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
   <div class="jumbotron vertical-center">
     <h1>&iquest;Somos?</h1>
-    <p>Somos una sempresa 100 % mexicana con 20 a&ntilde;os de experiencia en el ramo de las expocisiones, respaldada con mas de 100 cleintes activos, contando así con los recursos humanos, materiales y tecnol&oacute;gicos de la mas alta calidad para logar la satisfaccion total del cliente.</p>
+    <p>Somos una sempresa 100 % mexicana con 20 a&ntilde;os de experiencia en el ramo de las expocisiones, respaldada con mas de 100 clientes activos, contando as&iacute;  con los recursos humanos, materiales y tecnol&oacute;gicos de la mas alta calidad para logar la satisfacci&oacute;n total del cliente.</p>
   </div>
 
 
@@ -249,7 +249,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
           <img src="images/assets/about_us/icon/vision_2x.png" alt="...">
         </div>
         <div class="caption">
-          <h3>Visi&oacute;n: Ser la empresa l&iacute;der en el montaje de stands, displays y exposiciones de todo tipo logrando con esto, la satisfacción total del cliente por medio de nuestro compromiso en calidad, tiempo material y servicio.</h3>
+          <h3>Visi&oacute;n: Ser la empresa l&iacute;der en el montaje de stands, displays y exposiciones de todo tipo logrando con esto, la satisfacci&oacute;n total del cliente por medio de nuestro compromiso en calidad, tiempo material y servicio.</h3>
         </div>
       </div>
     </div>
