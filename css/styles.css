@@ -447,6 +447,17 @@ button.accordion.active:after {
   height: 100%;
 }
 
+
+
+ .logo-header {
+      
+
+        position :relative;                        
+        top:15px;                        
+        bottom:-14px;
+
+
+    }
 /* --------------------------------------------------- */
 /* ------------ RESPONSIVE UTILITIES ----------------- */
 /* --------------------------------------------------- */
@@ -478,7 +489,6 @@ button.accordion.active:after {
     .logo {
         height: 20%;
         width: 20%;
-
 
     }
 
