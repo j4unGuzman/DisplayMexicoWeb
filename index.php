@@ -96,7 +96,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 <header>
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <a href="#"><img class="logo" src="images/assets/header/logotype.png"  border="0" class="float-left"></a>
+      <a href="#"><img class="logo" src="images/assets/header/logotype.png" width="64" height="56" border="0" class="float-left"></a>
       <!-- 
       <ul class="icon-circle list-unstyled list-inline" style="float: right; margin-top: 3%;"> 
       -->
