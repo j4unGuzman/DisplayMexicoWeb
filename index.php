@@ -194,8 +194,8 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       <div class="thumbnail">
         <img src="images/assets/products/custom.png" alt="...">
         <div class="caption">
-          <h3>EXPOSICIONES</h3>
-          <p>Contamos con 20 a&ntilde;os siendo Profesionales en la Log&iacute;stica, planeaci&oacute;n y ejecuci&oacute;n de exposiciones. Contando as&iacute; con el equipo necesario para lograr el &eacute;xito. Tal es el ejemplo que para que para el montaje un stand se necesiten solo 9 minutos.</p>
+          <h3 class="text-center" >EXPOSICIONES</h3>
+          <p class="text-center" >Contamos con 20 a&ntilde;os siendo Profesionales en la Log&iacute;stica, planeaci&oacute;n y ejecuci&oacute;n de exposiciones. Contando as&iacute; con el equipo necesario para lograr el &eacute;xito. Tal es el ejemplo que para que para el montaje un stand se necesiten solo 9 minutos.</p>
         </div>
       </div>
     </div>
@@ -204,8 +204,8 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       <div class="thumbnail">
         <img src="images/assets/products/expo.png" alt="...">
         <div class="caption">
-          <h3>CUSTOM</h3>
-          <p>Dise&ntilde;os &uacute;nicos generados a partir de la idea del cliente transmitiendo la escencia de la empresa, utilizando as&iacute; materiales como la madera, mdf, acr&iacute;licos, iluminaci&oacute;n LED, entre otros.</p>
+          <h3 class="text-center" >CUSTOM</h3>
+          <p class="text-center" >Dise&ntilde;os &uacute;nicos generados a partir de la idea del cliente transmitiendo la escencia de la empresa, utilizando as&iacute; materiales como la madera, mdf, acr&iacute;licos, iluminaci&oacute;n LED, entre otros.</p>
           
         </div>
       </div>
@@ -215,8 +215,8 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       <div class="thumbnail">
         <img src="images/assets/products/sistema.png" alt="...">
         <div class="caption">
-          <h3>SISTEMA</h3>
-          <p>Dise&ntilde;os creados de manera personalizada resaltando la imagen del cliente utilizando como material principal el sistema de aluminio octagonal.</p>
+          <h3 class="text-center" >SISTEMA</h3>
+          <p class="text-center" >Dise&ntilde;os creados de manera personalizada resaltando la imagen del cliente utilizando como material principal el sistema de aluminio octagonal.</p>
           
         </div>
       </div>

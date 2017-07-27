@@ -46,6 +46,7 @@ cambio
 .float-left {
     float: left;
     margin-right: 20px;
+
 }
 
 .float-right {
@@ -432,6 +433,20 @@ button.accordion.active:after {
 }
 
 
+/**para grid*/
+
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+.col-height {
+  display: table-cell;
+  float: none;
+  height: 100%;
+}
+
 /* --------------------------------------------------- */
 /* ------------ RESPONSIVE UTILITIES ----------------- */
 /* --------------------------------------------------- */
@@ -463,6 +478,8 @@ button.accordion.active:after {
     .logo {
         height: 20%;
         width: 20%;
+
+
     }
 
     .social {
@@ -487,6 +504,7 @@ button.accordion.active:after {
     .logo {
         height: 20%;
         width: 20%;
+
     }
 
     .social {
@@ -556,6 +574,8 @@ button.accordion.active:after {
     .logo {
         height: 20%;
         width: 20%;
+
+
     }
 
     .social {
