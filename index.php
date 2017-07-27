@@ -14,6 +14,10 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
   <link rel="stylesheet" type="text/css" href="css/grid_horizontal_buttons_widthHeightRestrain.css">
   <!--[if lte IE 8 ]><link rel="stylesheet" type="text/css" href="css/ie.css" /><![endif]-->
   <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+
   <!-- 
   <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
   -->
