@@ -21,7 +21,7 @@ html, body {
 
 
 .titulosMontserrat{
-	font-family: 'Droid+Serif', serif;
+	font-family: 'Montserrat', serif;
 	text-align: center;
 	
 	font-weight: bold;
@@ -105,6 +105,9 @@ cambio
 }
 
 .marcas-txt {
+
+    font-family: 'Droid+Serif', serif;
+
     color: #C7C7C7;
 }
 

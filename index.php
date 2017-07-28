@@ -230,8 +230,8 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
   </div>
 
   <div class="jumbotron vertical-center">
-    <h1>&iquest;Somos?</h1>
-    <p>Somos una sempresa 100 % mexicana con 20 a&ntilde;os de experiencia en el ramo de las expocisiones, respaldada con mas de 100 clientes activos, contando as&iacute;  con los recursos humanos, materiales y tecnol&oacute;gicos de la mas alta calidad para logar la satisfacci&oacute;n total del cliente.</p>
+    <h1  class="titulosMontserrat" >&iquest;Somos?</h1>
+    <p  class="parrafosDroid" >Somos una sempresa 100 % mexicana con 20 a&ntilde;os de experiencia en el ramo de las expocisiones, respaldada con mas de 100 clientes activos, contando as&iacute;  con los recursos humanos, materiales y tecnol&oacute;gicos de la mas alta calidad para logar la satisfacci&oacute;n total del cliente.</p>
   </div>
 
 
@@ -243,7 +243,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
           <img src="images/assets/about_us/icon/mision_2x.png" alt="...">
         </div>
         <div class="caption">
-          <h3>Mision: Dise&ntilde;ar, fabricar y crear los stands</h3>
+          <h3 class="parrafosDroid" >Mision: Dise&ntilde;ar, fabricar y crear los stands</h3>
         </div>
       </div>
     </div>
@@ -254,7 +254,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
           <img src="images/assets/about_us/icon/vision_2x.png" alt="...">
         </div>
         <div class="caption">
-          <h3>Visi&oacute;n: Ser la empresa l&iacute;der en el montaje de stands, displays y exposiciones de todo tipo logrando con esto, la satisfacci&oacute;n total del cliente por medio de nuestro compromiso en calidad, tiempo material y servicio.</h3>
+          <h3 class="parrafosDroid" >Visi&oacute;n: Ser la empresa l&iacute;der en el montaje de stands, displays y exposiciones de todo tipo logrando con esto, la satisfacci&oacute;n total del cliente por medio de nuestro compromiso en calidad, tiempo material y servicio.</h3>
         </div>
       </div>
     </div>
@@ -269,7 +269,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
           <img src="images/assets/about_us/icon/values_2x.png" alt="...">
         </div>
         <div class="caption">
-          <h3>Valores: Respeto formalidad, honor, sabidur&iacute;a.</h3>
+          <h3  class="parrafosDroid" >Valores: Respeto formalidad, honor, sabidur&iacute;a.</h3>
         </div>
       </div>
     </div>
@@ -280,7 +280,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
           <img src="images/assets/about_us/icon/objective_2x.png" alt="...">
         </div>
         <div class="caption">
-          <h3>Objetivo:Somos una empresa comprometida con sus clientes y creamos un equipo para lograr juntos el &eacute;xito.</h3>
+          <h3 class="parrafosDroid" >Objetivo:Somos una empresa comprometida con sus clientes y creamos un equipo para lograr juntos el &eacute;xito.</h3>
         </div>
       </div>
     </div>
@@ -301,6 +301,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
     <div class="row">
 
+<!---
       <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/dulces-karla_logo.png" alt="...">
@@ -337,16 +338,56 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
         </a>
       </div>
 
+-->
 
-    </div>
+   <div class="col-xs-1">
+        <a href="#" class="thumbnail">
+          <img src="images/assets/partners/dulces-karla_logo.png" alt="...">
+        </a>
+      </div>
 
-    <div class="row">
+      <div class="col-xs-1">
+        <a href="#" class="thumbnail">
+          <img src="images/assets/partners/logo2.png" alt="...">
+        </a>
+      </div>
 
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
+      <div class="col-xs-1">
+        <a href="#" class="thumbnail">
+          <img src="images/assets/partners/DegasaProtec.png" alt="...">
+        </a>
+      </div>
+      
+      <div class="col-xs-1">
+        <a href="#" class="thumbnail">
+          <img src="images/assets/partners/ibarra_logo.png" alt="...">
+        </a>
+      </div>
+
+      <div class="col-xs-1">
+        <a href="#" class="thumbnail">
+          <img src="images/assets/partners/Logo-cdmx.png" alt="...">
+        </a>
+      </div>
+    
+      <div class="col-xs-1">
+        <a href="#" class="thumbnail">
+          <img src="images/assets/partners/powerade.png" alt="...">
+        </a>
+      </div>
+
+
+  <div class="col-xs-1">
         <a href="#" class="thumbnail">
           <img src="images/assets/partners/profile-157457646.v11.png" alt="...">
         </a>
       </div>
+
+    </div>
+
+    
+
+     <!--
 
       <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <a href="#" class="thumbnail">
@@ -395,6 +436,63 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       </div>
 
     </div>
+
+
+-->
+<div class="row">
+
+  <div class="col-xs-1">
+        <a href="#" class="thumbnail">
+          <img src="images/assets/partners/sistema-educativo-justo-sierra.png" alt="...">
+        </a>
+      </div>
+
+      <div class="col-xs-1">
+        <a href="#" class="thumbnail">
+          <img src="images/assets/partners/Unknown.png" alt="...">
+        </a>
+      </div>
+
+      <div class="col-xs-1">
+        <a href="#" class="thumbnail">
+          <img src="images/assets/partners/logoSAR21.png" alt="...">
+        </a>
+      </div>
+      
+      <div class="col-xs-1">
+        <a href="#" class="thumbnail">
+          <img src="images/assets/partners/kimberly-clark.png" alt="...">
+        </a>
+      </div>
+
+      <div class="col-xs-1">
+        <a href="#" class="thumbnail">
+          <img src="images/assets/partners/canelstipo.png" alt="...">
+        </a>
+      </div>
+
+   
+
+    
+    
+      <div class="col-xs-1">
+        <a href="#" class="thumbnail">
+          <img src="images/assets/partners/LOGO-TRANSVISION-BIKE-01-1.png" alt="...">
+        </a>
+      </div>
+
+      <div class="col-xs-1">
+        <a href="#" class="thumbnail">
+          <img src="images/assets/partners/tec.png" alt="...">
+        </a>
+      </div>
+
+    </div>
+
+
+
+
+
 
     <div class="row">
     
