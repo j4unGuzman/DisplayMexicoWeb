@@ -23,7 +23,9 @@ html, body {
 .titulosMontserrat{
 	font-family: 'Droid+Serif', serif;
 	text-align: center;
+	/*
 	font-weight: bold;
+	*/
     font-size: 28px;
 }
 
