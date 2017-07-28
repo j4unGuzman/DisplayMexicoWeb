@@ -10,9 +10,25 @@ html, body {
     padding:0;
     height:100%;
 
-    font-family: 'Montserrat', serif;
-    font-size: 20px;
+    
 }
+
+.parrafosDroid{
+	font-family: 'Droid+Serif', serif;
+	text-align: center;
+    font-size: 14px;
+}
+
+
+.titulosMontserrat{
+	font-family: 'Montserrat', serif;
+	text-align: center;
+	font-weight: bold;
+    font-size: 28px;
+}
+
+
+
 
 header {
     height: auto !important;
