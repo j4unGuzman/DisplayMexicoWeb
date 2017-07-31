@@ -64,6 +64,16 @@ cambio
     text-align: center;
 }
 
+
+.textoSobrepuesto {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
+
 .float-left {
     float: left;
     margin-right: 20px;
@@ -124,10 +134,10 @@ cambio
     font-weight: bold;
     font-style: normal;
     font-variant: normal;
-    /*
+    
     font-weight: 500;
-    */
-      font-size: 40px;
+    
+    font-size: 40px;
     line-height: 26.4px;
 }
 

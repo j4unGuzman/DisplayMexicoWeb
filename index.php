@@ -141,6 +141,11 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
       <div class="item active">
         <img class="first-slide" src="images/1_1024x600.png" alt="First slide">
+
+         <div class="textoSobrepuesto">
+            <p>En Display México generamos soluciones para sus necesidades de exposición , beneficiando así a nuestros clientes con un servicio Rápido , Económico y de Calidad</p>
+        </div>
+
         <div class="container">
           <div class="carousel-caption">
           </div>
@@ -149,6 +154,10 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
       <div class="item">
         <img class="second-slide" src="images/2_1024x600.png" alt="Second slide">
+        <div class="textoSobrepuesto">
+            <p>En Display México generamos soluciones para sus necesidades de exposición , beneficiando así a nuestros clientes con un servicio Rápido , Económico y de Calidad</p>
+        </div>
+
         <div class="container">
           <div class="carousel-caption">
           </div>
@@ -157,6 +166,11 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
       <div class="item">
         <img class="third-slide" src="images/3_1024x600.png" alt="Third slide">
+
+        <div class="textoSobrepuesto">
+            <p>En Display México generamos soluciones para sus necesidades de exposición , beneficiando así a nuestros clientes con un servicio Rápido , Económico y de Calidad</p>
+        </div>
+
         <div class="container">
           <div class="carousel-caption">
           </div>
@@ -165,6 +179,9 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
       <div class="item">
         <img class="fourth-slide" src="images/4_1024x600.png" alt="Four slide">
+        <div class="textoSobrepuesto">
+            <p>En Display México generamos soluciones para sus necesidades de exposición , beneficiando así a nuestros clientes con un servicio Rápido , Económico y de Calidad</p>
+        </div>
         <div class="container">
           <div class="carousel-caption">
           </div>
@@ -173,6 +190,9 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
       <div class="item">
         <img class="fifth-slide" src="images/5_1024x600.png" alt="Five slide">
+        <div class="textoSobrepuesto">
+            <p>En Display México generamos soluciones para sus necesidades de exposición , beneficiando así a nuestros clientes con un servicio Rápido , Económico y de Calidad</p>
+        </div>
         <div class="container">
           <div class="carousel-caption">
           </div>
