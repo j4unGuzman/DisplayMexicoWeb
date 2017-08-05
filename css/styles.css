@@ -30,11 +30,6 @@ html, body {
 }
 
 
-.carousel-inner > .item > a > img, .carousel-inner > .item > img
-{
-	
-	width 100%;
-}
 
 
 header {
@@ -44,9 +39,34 @@ header {
 
 
 
+
 /*
 cambio
 */
+
+
+.thumbnail-top
+{
+	margin-top:-20px;
+	height : 360px;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img
+{
+	
+	width:100%;
+}
+
+.thumbnail-centro
+{
+	margin-bottom:0 !important;
+}
+
+.padding-cero
+{
+	padding-left:0;
+	padding-right:0;
+}
 
 
 @font-face {
@@ -719,4 +739,11 @@ button.accordion.active:after {
         clear: both;
     }
 
+}
+
+
+@media only screen and (max-width: 960px) {
+    .thumbnai-top {
+        margin-top: 0;
+    }
 }

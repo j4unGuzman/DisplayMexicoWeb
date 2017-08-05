@@ -216,7 +216,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
   <div class="row">
 
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-      <div class="thumbnail">
+      <div class="thumbnail thumbnail-top">
         <img src="images/assets/products/custom.png" alt="...">
         <div class="caption">
           <h3 class="titulosMontserrat" >EXPOSICIONES</h3>
@@ -226,7 +226,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
     </div>
 
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-      <div class="thumbnail">
+      <div class="thumbnail thumbnail-top">
         <img src="images/assets/products/expo.png" alt="...">
         <div class="caption">
           <h3 class="titulosMontserrat" >CUSTOM</h3>
@@ -237,7 +237,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
     </div>
 
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-      <div class="thumbnail">
+      <div class="thumbnail thumbnail-top">
         <img src="images/assets/products/sistema.png" alt="...">
         <div class="caption">
           <h3 class="titulosMontserrat" >SISTEMA</h3>
@@ -257,8 +257,8 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
   <div class="row about">
 
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="thumbnail float-left element">
+    <div class="padding-cero col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="thumbnail thumbnail-centro float-left element">
         <div class="float-left">
           <img src="images/assets/about_us/icon/mision_2x.png" alt="...">
         </div>
@@ -268,8 +268,8 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="thumbnail float-right element">
+    <div class="padding-cero col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="thumbnail  thumbnail-centro float-right element">
         <div class="float-left">
           <img src="images/assets/about_us/icon/vision_2x.png" alt="...">
         </div>
@@ -283,8 +283,8 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
   <div class="row about">
 
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="thumbnail float-left element">
+    <div class="padding-cero col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="thumbnail thumbnail-centro float-left element">
         <div class="float-left">
           <img src="images/assets/about_us/icon/values_2x.png" alt="...">
         </div>
@@ -294,8 +294,8 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="thumbnail float-right element">
+    <div class="padding-cero col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="thumbnail thumbnail-centro float-right element">
         <div class="float-left">
           <img src="images/assets/about_us/icon/objective_2x.png" alt="...">
         </div>
@@ -317,6 +317,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 <div style="background-color: #EDEDED; margin-bottom: 5%;">
 
   <!-- marcas -->
+	
   <div id="marcas" class="jumbotron vertical-center">
 
     <div class="row">
@@ -508,8 +509,6 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       </div>
 
     </div>
-
-
 
 
 
