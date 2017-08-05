@@ -250,7 +250,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
   </div>
 
   <div class="jumbotron vertical-center">
-    <h1  class="titulosMontserrat" >&iquest;Somos?</h1>
+    <h1  class="titulosMontserrat" >&iquest; Qui&eacute;nes Somos?</h1>
     <p  class="parrafosDroid" >Somos una sempresa 100 % mexicana con 20 a&ntilde;os de experiencia en el ramo de las expocisiones, respaldada con mas de 100 clientes activos, contando as&iacute;  con los recursos humanos, materiales y tecnol&oacute;gicos de la mas alta calidad para logar la satisfacci&oacute;n total del cliente.</p>
   </div>
 
