@@ -37,7 +37,7 @@ header {
 }
 
 
-
+/* Cambios Hill */
 
 
 /*
@@ -54,19 +54,73 @@ cambio
 .carousel-inner > .item > a > img, .carousel-inner > .item > img
 {
 	
-	width:100%;
+	width: 100%!important;
 }
+
+
+.carousel-control
+{
+    display: none;
+}
+
+.thumbnail-top{
+    margin-top:-40px;
+    min-height: 370px
+}
+
+.thumbnail-center{
+    margin-bottom:0px!important;
+}
+
 
 .thumbnail-centro
 {
 	margin-bottom:0 !important;
 }
 
+.thumbnail-center{
+    margin-bottom:0px!important;
+}
+
+
+
+
+
 .padding-cero
 {
 	padding-left:0;
 	padding-right:0;
 }
+
+.carousel-indicators{
+    bottom:50px!important;
+}
+
+.sinPadding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.thumbnail-center img{
+    width: 70%!important;
+    padding: 30px 0!important;
+}
+
+.thumbnail-center .caption{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    height: 150px;
+}
+
+.img-marca{
+    width: 100px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/* Cambios Hill */
 
 
 @font-face {
@@ -115,6 +169,9 @@ cambio
     height: 100%;
 }
 
+
+
+/*revisar elemnto     height: 250px; quitarlo si es nesesario*/
 .element {
     overflow: auto;
     height: 250px;
@@ -742,8 +799,39 @@ button.accordion.active:after {
 }
 
 
-@media only screen and (max-width: 960px) {
-    .thumbnai-top {
+@media only screen and (max-width: 991px) {
+    .element{
+        min-height: 260px;
+    }
+    .thumbnail-center img{
+        width:30%!important;
+        padding:20px 0!important;
+    }
+    .thumbnail-center .caption{
+        height: 100px;
+    }
+    .titulosMontserrat{
+        font-size:1.6em;
+    }
+    .thumbnail-top{
+        min-height: 410px
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .thumbnail-top {
         margin-top: 0;
+        min-height: auto;
+    }
+
+    .titulosMontserrat{
+        font-size:40px;
+    }
+}
+
+@media only screen and (max-width: 1003px) {
+    .marca{
+        width: 90px;
     }
 }

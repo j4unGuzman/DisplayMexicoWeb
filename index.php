@@ -249,7 +249,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
   </div>
 
-  <div class="jumbotron vertical-center">
+  <div class="jumbotron vertical-center" style="margin-bottom: auto;" >
     <h1  class="titulosMontserrat" >&iquest; Qui&eacute;nes Somos?</h1>
     <p  class="parrafosDroid" >Somos una sempresa 100 % mexicana con 20 a&ntilde;os de experiencia en el ramo de las expocisiones, respaldada con mas de 100 clientes activos, contando as&iacute;  con los recursos humanos, materiales y tecnol&oacute;gicos de la mas alta calidad para logar la satisfacci&oacute;n total del cliente.</p>
   </div>
@@ -257,23 +257,23 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
   <div class="row about">
 
-    <div class="padding-cero col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="thumbnail thumbnail-centro float-left element">
-        <div class="float-left">
+    <div class="sinPadding col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="thumbnail thumbnail-center float-left element">
+        <div class="col-md-3 text-center">
           <img src="images/assets/about_us/icon/mision_2x.png" alt="...">
         </div>
-        <div class="caption">
+	 <div class="caption col-md-9 text-center">
           <h3 class="parrafosDroid" >Mision: Dise&ntilde;ar, fabricar y crear los stands</h3>
         </div>
       </div>
     </div>
 
-    <div class="padding-cero col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="thumbnail  thumbnail-centro float-right element">
-        <div class="float-left">
+    <div class="sinPadding col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="thumbnail  thumbnail-center float-right element">
+        <div class="col-md-3 text-center">
           <img src="images/assets/about_us/icon/vision_2x.png" alt="...">
         </div>
-        <div class="caption">
+        <div class="caption col-md-9 text-center">
           <h3 class="parrafosDroid" >Visi&oacute;n: Ser la empresa l&iacute;der en el montaje de stands, displays y exposiciones de todo tipo logrando con esto, la satisfacci&oacute;n total del cliente por medio de nuestro compromiso en calidad, tiempo material y servicio.</h3>
         </div>
       </div>
@@ -283,23 +283,23 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
   <div class="row about">
 
-    <div class="padding-cero col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="thumbnail thumbnail-centro float-left element">
-        <div class="float-left">
+    <div class="sinPadding col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="thumbnail thumbnail-center float-left element">
+        <div class="col-md-3 text-center">
           <img src="images/assets/about_us/icon/values_2x.png" alt="...">
         </div>
-        <div class="caption">
+        <div class="caption col-md-9 text-center">
           <h3  class="parrafosDroid" >Valores: Respeto formalidad, honor, sabidur&iacute;a.</h3>
         </div>
       </div>
     </div>
 
-    <div class="padding-cero col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="thumbnail thumbnail-centro float-right element">
-        <div class="float-left">
+    <div class="sinPadding col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="thumbnail thumbnail-center float-right element">
+        <div class="col-md-3 text-center">
           <img src="images/assets/about_us/icon/objective_2x.png" alt="...">
         </div>
-        <div class="caption">
+        <div class="caption col-md-9 text-center">
           <h3 class="parrafosDroid" >Objetivo:Somos una empresa comprometida con sus clientes y creamos un equipo para lograr juntos el &eacute;xito.</h3>
         </div>
       </div>
@@ -311,216 +311,73 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 <!-- 
 <div style="background-color: #097EBC; height: 20px;">
 -->
-<div style="background-color: #097EBC; height: 5%;">
-</div>
+<div id="marcas" class="container text-center vertical-center col-md-12 jumbotron" style="background-color: #FFF;">
+  <div class="col-md-12" style="width: 100%">
+    <a href="#" class="marca">
+      <img src="images/assets/partners/dulces-karla_logo.png" class="img-marca" alt="...">
+    </a>
 
-<div style="background-color: #EDEDED; margin-bottom: 5%;">
+    <a href="#" class="marca">
+      <img src="images/assets/partners/logo2.png" class="img-marca" alt="...">
+    </a>
 
-  <!-- marcas -->
-	
-  <div id="marcas" class="jumbotron vertical-center">
+    <a href="#" class="marca">
+      <img src="images/assets/partners/DegasaProtec.png" class="img-marca" alt="...">
+    </a>
 
-    <div class="row">
+    <a href="#" class="marca">
+      <img src="images/assets/partners/ibarra_logo.png" class="img-marca" alt="...">
+    </a>
 
-<!---
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/dulces-karla_logo.png" alt="...">
-        </a>
-      </div>
+    <a href="#" class="marca">
+      <img src="images/assets/partners/Logo-cdmx.png" class="img-marca" alt="...">
+    </a>
 
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/logo2.png" alt="...">
-        </a>
-      </div>
+    <a href="#" class="marca">
+      <img src="images/assets/partners/powerade.png" class="img-marca" alt="...">
+    </a>
 
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/DegasaProtec.png" alt="...">
-        </a>
-      </div>
-      
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/ibarra_logo.png" alt="...">
-        </a>
-      </div>
+    <a href="#" class="marca">
+      <img src="images/assets/partners/profile-157457646.v11.png" class="img-marca" alt="...">
+    </a>
+  </div>
+  <div class="col-md-12" style="width: 100%">
+    <a href="#" class="marca">
+      <img src="images/assets/partners/sistema-educativo-justo-sierra.png" class="img-marca" alt="...">
+    </a>
 
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/Logo-cdmx.png" alt="...">
-        </a>
-      </div>
-    
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/powerade.png" alt="...">
-        </a>
-      </div>
+    <a href="#" class="marca">
+      <img src="images/assets/partners/Unknown.png" class="img-marca" alt="...">
+    </a>
 
--->
+    <a href="#" class="marca">
+      <img src="images/assets/partners/logoSAR21.png" class="img-marca" alt="...">
+    </a>
 
-   <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/dulces-karla_logo.png" alt="...">
-        </a>
-      </div>
+    <a href="#" class="marca">
+      <img src="images/assets/partners/kimberly-clark.png" class="img-marca" alt="...">
+    </a>
 
-      <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/logo2.png" alt="...">
-        </a>
-      </div>
+    <a href="#" class="marca">
+      <img src="images/assets/partners/canelstipo.png" class="img-marca" alt="...">
+    </a>
 
-      <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/DegasaProtec.png" alt="...">
-        </a>
-      </div>
-      
-      <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/ibarra_logo.png" alt="...">
-        </a>
-      </div>
+    <a href="#" class="marca">
+      <img src="images/assets/partners/LOGO-TRANSVISION-BIKE-01-1.png" class="img-marca" alt="...">
+    </a>
 
-      <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/Logo-cdmx.png" alt="...">
-        </a>
-      </div>
-    
-      <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/powerade.png" alt="...">
-        </a>
-      </div>
+    <a href="#" class="marca">
+      <img src="images/assets/partners/tec.png" class="img-marca" alt="...">
+    </a>
+  </div>
 
-
-  <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/profile-157457646.v11.png" alt="...">
-        </a>
-      </div>
-
-    </div>
-
-    
-
-     <!--
-
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/sistema-educativo-justo-sierra.png" alt="...">
-        </a>
-      </div>
-
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/Unknown.png" alt="...">
-        </a>
-      </div>
-
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/logoSAR21.png" alt="...">
-        </a>
-      </div>
-      
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/kimberly-clark.png" alt="...">
-        </a>
-      </div>
-
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/canelstipo.png" alt="...">
-        </a>
-      </div>
-
-    </div>
-
-    <div class="row">
-    
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/LOGO-TRANSVISION-BIKE-01-1.png" alt="...">
-        </a>
-      </div>
-
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/tec.png" alt="...">
-        </a>
-      </div>
-
-    </div>
-
-
--->
-<div class="row">
-
-  <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/sistema-educativo-justo-sierra.png" alt="...">
-        </a>
-      </div>
-
-      <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/Unknown.png" alt="...">
-        </a>
-      </div>
-
-      <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/logoSAR21.png" alt="...">
-        </a>
-      </div>
-      
-      <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/kimberly-clark.png" alt="...">
-        </a>
-      </div>
-
-      <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/canelstipo.png" alt="...">
-        </a>
-      </div>
-
-   
-
-    
-    
-      <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/LOGO-TRANSVISION-BIKE-01-1.png" alt="...">
-        </a>
-      </div>
-
-      <div class="col-xs-1">
-        <a href="#" class="thumbnail">
-          <img src="images/assets/partners/tec.png" alt="...">
-        </a>
-      </div>
-
-    </div>
-
-
-
-
-    <div class="row">
+  <div class="row">
     
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <p class="marcas-txt">Algunas marcas que han trabajado con nosotros.</p>
       </div>
 
     </div>
-
   </div>
 
   <!-- -->
