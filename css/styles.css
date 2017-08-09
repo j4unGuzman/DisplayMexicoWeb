@@ -477,7 +477,8 @@ button.accordion.active:after {
 }
 
 .contactanos {
-    color: #C0C0C0;
+    
+   color: #6C9BCD;
 }
 
 .contactanos a {
@@ -492,8 +493,10 @@ button.accordion.active:after {
     /*
     color: red;
     */
-    color: #C0C0C0;
+    color: #444;
 }
+
+
 
 /* visited link */
 .contactanos a:visited {
@@ -501,6 +504,25 @@ button.accordion.active:after {
     color: green;
     */
     color: black;
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #444 !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #444 !important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #444 !important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #444;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #444;
 }
 
 /* mouse over link */
@@ -517,7 +539,7 @@ button.accordion.active:after {
 }
 
 .title-form {
-    color: #C0C0C0;
+    color: #444;
 }
 
 .form-enviar {
@@ -667,6 +689,7 @@ button.accordion.active:after {
     
     .jumbotron {
         font-size: 25px;
+	
     }
     
     ol.accordion-ol li {
