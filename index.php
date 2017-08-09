@@ -535,7 +535,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
           <p class="contactanos-title">Cont&aacute;ctanos</p>
           <hr class="divider"></hr>
 
-          <address class="contactanos">
+          <address class="contactanos" style="color:#444;" >
             Email: <a href="mailto:contacto@displaymexico.com">contacto@displaymexico.com</a><br>
             <a href="mailto:contacto@displaymexico.com">displaymexico@prodigy.net.mx</a><br>
             <!-- 
