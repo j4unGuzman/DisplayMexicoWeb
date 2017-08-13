@@ -144,6 +144,23 @@ cambio
 }
 
 
+.textoSobrepuestoTitulo1 {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
+.textoSobrepuestoTitulo2 {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
+
 .textoSobrepuesto {
     position: absolute;
     top: 75%;
@@ -151,6 +168,16 @@ cambio
     width: 100%;
     color: white;
 }
+
+
+.textoSobrepuesto2 {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
 
 
 .float-left {
