@@ -144,10 +144,10 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
 
         <div class="textoSobrepuestoTitulo1">
-            <p>Trazando tus ideas,</p>
+            <p class = "titulosMontserrat" style="text-align:left;">Trazando tus ideas,</p>
         </div>
          <div class="textoSobrepuestoTitulo2">
-            <p>Innovando tus stands</p>
+            <p class = "titulosMontserrat" style="text-align:left;">Innovando tus stands</p>
         </div>
 
 
@@ -168,11 +168,12 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
         <img class="second-slide" src="images/2_1024x600.png" alt="Second slide">
 
         <div class="textoSobrepuestoTitulo1">
-            <p>Trazando tus ideas,</p>
+            <p class = "titulosMontserrat" style="text-align:left;">Trazando tus ideas,</p>
         </div>
          <div class="textoSobrepuestoTitulo2">
-            <p>Innovando tus stands</p>
+            <p class = "titulosMontserrat" style="text-align:left;">Innovando tus stands</p>
         </div>
+
 
         <div class="textoSobrepuesto">
             <p>En Display México generamos soluciones para sus necesidades de exposición, </p>
@@ -191,11 +192,12 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
         <img class="third-slide" src="images/3_1024x600.png" alt="Third slide">
 
         <div class="textoSobrepuestoTitulo1">
-            <p>Trazando tus ideas,</p>
+            <p class = "titulosMontserrat" style="text-align:left;">Trazando tus ideas,</p>
         </div>
          <div class="textoSobrepuestoTitulo2">
-            <p>Innovando tus stands</p>
+            <p class = "titulosMontserrat" style="text-align:left;">Innovando tus stands</p>
         </div>
+
 
 
         <div class="textoSobrepuesto">
@@ -215,11 +217,12 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
         <img class="fourth-slide" src="images/4_1024x600.png" alt="Four slide">
 
         <div class="textoSobrepuestoTitulo1">
-            <p>Trazando tus ideas,</p>
+            <p class = "titulosMontserrat" style="text-align:left;">Trazando tus ideas,</p>
         </div>
          <div class="textoSobrepuestoTitulo2">
-            <p>Innovando tus stands</p>
+            <p class = "titulosMontserrat" style="text-align:left;">Innovando tus stands</p>
         </div>
+
 
         
         <div class="textoSobrepuesto">
