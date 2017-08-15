@@ -239,7 +239,7 @@ cambio
 /*revisar elemnto     height: 250px; quitarlo si es nesesario*/
 .element {
     overflow: auto;
-    height: 250px;
+    height: 160px;
     width: 100%;
     position: relative;
     top:0;
