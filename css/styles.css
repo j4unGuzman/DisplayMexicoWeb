@@ -57,9 +57,9 @@ html, body {
 }
 
 .titulosMontserrat {
-    font-family: 'MontserratLight', serif;
-    font-family: 'MontserratRegular', serif;
-    font-family: 'MontserratBold', serif;
+    /* font-family: 'MontserratLight', serif; */
+    /* font-family: 'MontserratRegular', serif; */
+    /* font-family: 'MontserratBold', serif; */
     font-family: 'MontserratExtraBold', serif;
 	text-align: center;
     font-size: 40px;
