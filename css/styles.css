@@ -13,24 +13,62 @@ html, body {
     
 }
 
-.parrafosDroid{
+.parrafosDroid {
 	font-family: 'Droid+Serif', serif;
 	text-align: center;
     font-size: 14px;
 }
 
 
-.titulosMontserrat{
-	font-family: 'Montserrat', serif;
-	text-align: center;
-	
-	font-weight: bold;
-	
-    font-size: 40px;
+@font-face {
+  font-family: 'MontserratLight';
+  font-weight: normal;
+  src: url('../fonts/Montserrat-Light.eot');
+  src: url('../fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Montserrat-Light.woff2') format('woff2'),
+       url('../fonts/Montserrat-Light.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'MontserratBold';
+  font-weight: normal;
+  src: url('../fonts/Montserrat-Bold.eot');
+  src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+       url('../fonts/Montserrat-Bold.woff') format('woff');
+}
 
+@font-face {
+  font-family: 'MontserratExtraBold';
+  font-weight: normal;
+  src: url('../fonts/Montserrat-ExtraBold.eot');
+  src: url('../fonts/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+       url('../fonts/Montserrat-ExtraBold.woff') format('woff');
+}
 
+@font-face {
+  font-family: 'MontserratRegular';
+  font-weight: normal;
+  src: url('../fonts/Montserrat-Regular.eot');
+  src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+       url('../fonts/Montserrat-Regular.woff') format('woff');
+}
+
+.titulosMontserrat {
+    font-family: 'MontserratLight', serif;
+    font-family: 'MontserratRegular', serif;
+    font-family: 'MontserratBold', serif;
+    font-family: 'MontserratExtraBold', serif;
+	text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    /*font-weight: 700;*/
+    font-weight: normal;
+    line-height: 40px;    
+}
 
 header {
     height: auto !important;

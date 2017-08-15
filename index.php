@@ -15,7 +15,9 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
   <!--[if lte IE 8 ]><link rel="stylesheet" type="text/css" href="css/ie.css" /><![endif]-->
   <link href="css/styles.css" rel="stylesheet" type="text/css" />
 
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <!-- 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif">
 
 
@@ -239,6 +241,14 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
       <div class="item">
         <img class="fifth-slide" src="images/5_1024x600.png" alt="Five slide">
+
+        <div class="textoSobrepuestoTitulo1">
+            <p class = "titulosMontserrat" style="text-align:left;">Trazando tus ideas,</p>
+        </div>
+         <div class="textoSobrepuestoTitulo2">
+            <p class = "titulosMontserrat" style="text-align:left;">Innovando tus stands</p>
+        </div>
+
         <div class="textoSobrepuesto">
             <p>En Display México generamos soluciones para sus necesidades de exposición, </p>
         </div>
