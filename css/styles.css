@@ -61,7 +61,7 @@ html, body {
     /* font-family: 'MontserratRegular', serif; */
     /* font-family: 'MontserratBold', serif; */
     font-family: 'MontserratExtraBold', serif;
-	text-align: center;
+    text-align: center;
     font-size: 40px;
     font-style: normal;
     font-variant: normal;
@@ -185,7 +185,7 @@ cambio
 .textoSobrepuestoTitulo1 {
     position: absolute;
     top: 60%;
-    left: 0;
+    left: 10px;
     width: 100%;
     color: white;
 }
@@ -193,7 +193,7 @@ cambio
 .textoSobrepuestoTitulo2 {
     position: absolute;
     top: 65%;
-    left: 0;
+    left: 10px;
     width: 100%;
     color: white;
 }
@@ -202,7 +202,7 @@ cambio
 .textoSobrepuesto {
     position: absolute;
     top: 75%;
-    left: 0;
+    left: 10px;
     width: 100%;
     color: white;
 }
@@ -211,7 +211,7 @@ cambio
 .textoSobrepuesto2 {
     position: absolute;
     top: 80%;
-    left: 0;
+    left: 10px;
     width: 100%;
     color: white;
 }

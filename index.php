@@ -311,8 +311,11 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
   </div>
 
-  <div class="jumbotron vertical-center" style="margin-bottom: auto;" >
-    <h1  class="titulosMontserrat" >&iquest; Qui&eacute;nes Somos?</h1>
+  <div class="jumbotron vertical-center" style="margin-bottom: 10px;" >
+   <!-- <h1  class="titulosMontserrat" >&iquest; Qui&eacute;nes Somos?</h1> -->
+
+	 <p class="titulosMontserrat" style="font-size:60px;" >&iquest; Qui&eacute;nes Somos?</p>
+
     <p  class="parrafosDroid" >Somos una sempresa 100 % mexicana con 20 a&ntilde;os de experiencia en el ramo de las expocisiones, respaldada con mas de 100 clientes activos, contando as&iacute;  con los recursos humanos, materiales y tecnol&oacute;gicos de la mas alta calidad para logar la satisfacci&oacute;n total del cliente.</p>
   </div>
 
