@@ -462,8 +462,9 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
   ================================================== -->
   <div id="componentWrapper">
              
-    <div class="thumbContainer" style="width: 740px; height: 320px; left: 55px; top: 61px;">
-                 
+
+    <div class="thumbContainer" style="width: 740px; height: 320px; left: 55px; top:61px;">
+			
       <div class="thumbInnerContainer" style="display: block;">
                
         <div class="thumbHolder" data-title="title1" data-id-i="0" data-id-j="0" style="left: 0px; top: 0px;">  
