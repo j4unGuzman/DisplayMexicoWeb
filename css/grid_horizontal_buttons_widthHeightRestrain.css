@@ -54,29 +54,29 @@ body{
 
 #componentWrapper .thumbHolder{
 	position:absolute;
-	width:240px;
-	height:155px;
+	width:250px;
+	height:165px;
 	overflow:hidden;
 	background:#fff;
 }
 
 #componentWrapper .thumbHolder a img{
 	display:block;
-	width:240px;
-	height:155px;
+	width:250px;
+	height:165px;
 }
 
 #componentWrapper .innerThumbHolder{
 	position:absolute;
-	width:240px;
-	height:155px;
+	width:250px;
+	height:165px;
 	overflow:hidden;
 }
 
 #componentWrapper .innerThumbHolder a img{
 	display:block;
-	width:240px;
-	height:155px;
+	width:250px;
+	height:165px;
 }
 
 #componentWrapper .thumbBackward{
