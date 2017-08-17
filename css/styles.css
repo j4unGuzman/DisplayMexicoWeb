@@ -184,7 +184,7 @@ cambio
 
 .textoSobrepuestoTitulo1 {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 20px;
     width: 100%;
     color: white;
@@ -192,7 +192,7 @@ cambio
 
 .textoSobrepuestoTitulo2 {
     position: absolute;
-    top: 65%;
+    top: 55%;
     left: 20px;
     width: 100%;
     color: white;
@@ -201,7 +201,7 @@ cambio
 
 .textoSobrepuesto {
     position: absolute;
-    top: 75%;
+    top: 65%;
     left: 20px;
     width: 100%;
     color: white;
@@ -210,9 +210,18 @@ cambio
 
 .textoSobrepuesto2 {
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 20px;
     width: 100%;
+    color: white;
+}
+
+
+.botonSobrepuesto {
+    position: absolute;
+    top: 80%;
+    left: 20px;
+    width: 50%;
     color: white;
 }
 

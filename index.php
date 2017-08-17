@@ -159,7 +159,12 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
         <div class="textoSobrepuesto2">
             <p> beneficiando así a nuestros clientes con un servicio Rápido , Económico y de Calidad</p>
         </div>
-
+		  
+		<div class="botonSobrepuesto">
+          <input class="btn btn-info btn-lg" type="button" onClick="document.getElementById('seccion_pregunta').scrollIntoView();"  value ="Contactar" />
+        </div>
+		  
+		  
         <div class="container">
           <div class="carousel-caption">
           </div>
@@ -398,10 +403,17 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       <img src="images/assets/partners/Logo-cdmx.png" class="img-marca" alt="...">
     </a>
 
+	  <!--
+	  
     <a href="#" class="marca">
       <img src="images/assets/partners/powerade.png" class="img-marca" alt="...">
     </a>
-
+--->
+	  
+	  <a href="#" class="marca">
+      <img src="images/assets/partners/canelstipo.png" class="img-marca" alt="...">
+    </a>
+	  
     <a href="#" class="marca">
       <img src="images/assets/partners/profile-157457646.v11.png" class="img-marca" alt="...">
     </a>
@@ -423,10 +435,11 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       <img src="images/assets/partners/kimberly-clark.png" class="img-marca" alt="...">
     </a>
 
+	  <!---
     <a href="#" class="marca">
       <img src="images/assets/partners/canelstipo.png" class="img-marca" alt="...">
     </a>
-
+--->
     <a href="#" class="marca">
       <img src="images/assets/partners/LOGO-TRANSVISION-BIKE-01-1.png" class="img-marca" alt="...">
     </a>
@@ -462,9 +475,8 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
   ================================================== -->
   <div id="componentWrapper">
              
-
-    <div class="thumbContainer" style="width: 740px; height: 320px; left: 55px; top:61px;">
-			
+    <div class="thumbContainer" style="width: 740px; height: 320px; left: 55px; top: 61px;">
+                 
       <div class="thumbInnerContainer" style="display: block;">
                
         <div class="thumbHolder" data-title="title1" data-id-i="0" data-id-j="0" style="left: 0px; top: 0px;">  
@@ -588,7 +600,8 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
            
   </div>
 
-</div>
+	<div id="seccion_pregunta"></div>
+
 
 <div style="background-color: #3EA5D2;">
   <div class="jumbotron">
