@@ -106,7 +106,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
     <!--
       <a href="#"><img class="logo-header" src="images/assets/header/logotype.png" width="64" height="56" border="0" class="float-left"></a>
     -->
-    <a href="#"><img class="logo-header" src="images/assets/header/logo_display_mexico_3d.jpg" width="64" height="56" border="0" class="float-left"></a>
+    <a href="#"><img class="logo-header" src="images/assets/header/logo_display_mexico_3d.png" width="64" height="56" border="0" class="float-left"></a>
       <!-- 
       <ul class="icon-circle list-unstyled list-inline" style="float: right; margin-top: 3%;"> 
       -->
