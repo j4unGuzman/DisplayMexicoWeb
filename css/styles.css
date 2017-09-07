@@ -62,13 +62,32 @@ html, body {
     /* font-family: 'MontserratBold', serif; */
     font-family: 'MontserratExtraBold', serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 40px; 
     font-style: normal;
     font-variant: normal;
     /*font-weight: 700;*/
     font-weight: normal;
     line-height: 40px;    
 }
+
+
+
+.titulosMontserratSomos {
+    /* font-family: 'MontserratLight', serif; */
+    /* font-family: 'MontserratRegular', serif; */
+    /* font-family: 'MontserratBold', serif; */
+    font-family: 'MontserratExtraBold', serif;
+    text-align: center;
+    font-size: 60px; 
+    font-style: normal;
+    font-variant: normal;
+    /*font-weight: 700;*/
+    font-weight: normal;
+    line-height: 40px;    
+}
+
+
+
 
 header {
     height: auto !important;
@@ -722,7 +741,75 @@ button.accordion.active:after {
         clear: both;
     }
 
+
+
+.titulosMontserrat {
+    /* font-family: 'MontserratLight', serif; */
+    /* font-family: 'MontserratRegular', serif; */
+    /* font-family: 'MontserratBold', serif; */
+    font-family: 'MontserratExtraBold', serif;
+    text-align: center;
+    font-size: 10px; 
+    font-style: normal;
+    font-variant: normal;
+    /*font-weight: 700;*/
+    font-weight: normal;
+    line-height: 10px;    
 }
+
+.textoSobrepuestoTitulo1 {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width: 50%;
+
+     font-size: 30px; 
+    color: white;
+}
+
+.textoSobrepuestoTitulo2 {
+    position: absolute;
+    top: 55%;
+    left: 20px;
+    width: 50%;
+    font-size: 30px; 
+    color: white;
+}
+
+
+.textoSobrepuesto {
+    position: absolute;
+    top: 65%;
+    left: 20px;
+    width: 50%;
+    font-size: 30px; 
+    color: white;
+}
+
+
+.textoSobrepuesto2 {
+    position: absolute;
+    top: 70%;
+    left: 20px;
+    width: 50%;
+    font-size: 30px; 
+    color: white;
+}
+
+
+.botonSobrepuesto {
+    position: absolute;
+    top: 80%;
+    left: 20px;
+    width: 50%;
+    font-size: 30px; 
+    color: white;
+}
+
+
+}
+
+
 
 @media (min-width: 767px) and (max-width: 992px) and (orientation : portrait) {
 
@@ -748,7 +835,12 @@ button.accordion.active:after {
     }
 
 
+
+
+
 }
+
+
 
 /* Landscape phones and down */
 @media  (min-width: 0px) and (max-width: 766px) and (orientation : landscape) {
