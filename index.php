@@ -149,10 +149,10 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
 
 
         <div class="textoSobrepuestoTitulo1">
-            <p class = "titulosMontserrat" style="text-align:left;">Trazando tus ideas,</p>
+            <p class = "titulosMontserrat estiloSobrepuesto">Trazando tus ideas,</p>
         </div>
          <div class="textoSobrepuestoTitulo2">
-            <p class = "titulosMontserrat" style="text-align:left;">Innovando tus stands</p>
+            <p class = "titulosMontserrat estiloSobrepuesto">Innovando tus stands</p>
         </div>
 
 
@@ -163,7 +163,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
             <p> beneficiando así a nuestros clientes con un servicio Rápido , Económico y de Calidad</p>
         </div>
 		  
-		<div class="botonSobrepuesto">
+		    <div class="botonSobrepuesto">
           <input class="btn btn-info btn-lg" type="button" onClick="document.getElementById('seccion_pregunta').scrollIntoView();"  value ="Contactar" />
         </div>
 		  
@@ -178,10 +178,10 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
         <img class="second-slide" src="images/2_1024x600.png" alt="Second slide">
 
         <div class="textoSobrepuestoTitulo1">
-            <p class = "titulosMontserrat" style="text-align:left;">Trazando tus ideas,</p>
+            <p class = "titulosMontserrat estiloSobrepuesto">Trazando tus ideas,</p>
         </div>
          <div class="textoSobrepuestoTitulo2">
-            <p class = "titulosMontserrat" style="text-align:left;">Innovando tus stands</p>
+            <p class = "titulosMontserrat estiloSobrepuesto">Innovando tus stands</p>
         </div>
 
 
@@ -191,6 +191,11 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
         <div class="textoSobrepuesto2">
             <p> beneficiando así a nuestros clientes con un servicio Rápido , Económico y de Calidad</p>
         </div>
+
+        <div class="botonSobrepuesto">
+          <input class="btn btn-info btn-lg" type="button" onClick="document.getElementById('seccion_pregunta').scrollIntoView();"  value ="Contactar" />
+        </div>
+      
 
         <div class="container">
           <div class="carousel-caption">
@@ -202,7 +207,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
         <img class="third-slide" src="images/3_1024x600.png" alt="Third slide">
 
         <div class="textoSobrepuestoTitulo1">
-            <p class = "titulosMontserrat" style="text-align:left;">Trazando tus ideas,</p>
+            <p class = "titulosMontserrat estiloSobrepuesto">Trazando tus ideas,</p>
         </div>
          <div class="textoSobrepuestoTitulo2">
             <p class = "titulosMontserrat" style="text-align:left;">Innovando tus stands</p>
@@ -217,6 +222,10 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
             <p> beneficiando así a nuestros clientes con un servicio Rápido , Económico y de Calidad</p>
         </div>
 
+        <div class="botonSobrepuesto">
+          <input class="btn btn-info btn-lg" type="button" onClick="document.getElementById('seccion_pregunta').scrollIntoView();"  value ="Contactar" />
+        </div>
+      
         <div class="container">
           <div class="carousel-caption">
           </div>
@@ -227,10 +236,10 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
         <img class="fourth-slide" src="images/4_1024x600.png" alt="Four slide">
 
         <div class="textoSobrepuestoTitulo1">
-            <p class = "titulosMontserrat" style="text-align:left;">Trazando tus ideas,</p>
+            <p class = "titulosMontserrat estiloSobrepuesto">Trazando tus ideas,</p>
         </div>
          <div class="textoSobrepuestoTitulo2">
-            <p class = "titulosMontserrat" style="text-align:left;">Innovando tus stands</p>
+            <p class = "titulosMontserrat estiloSobrepuesto">Innovando tus stands</p>
         </div>
 
 
@@ -241,6 +250,12 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
         <div class="textoSobrepuesto2">
             <p> beneficiando así a nuestros clientes con un servicio Rápido , Económico y de Calidad</p>
         </div>
+
+        <div class="botonSobrepuesto">
+          <input class="btn btn-info btn-lg" type="button" onClick="document.getElementById('seccion_pregunta').scrollIntoView();"  value ="Contactar" />
+        </div>
+      
+
         <div class="container">
           <div class="carousel-caption">
           </div>
@@ -251,10 +266,10 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
         <img class="fifth-slide" src="images/5_1024x600.png" alt="Five slide">
 
         <div class="textoSobrepuestoTitulo1">
-            <p class = "titulosMontserrat" style="text-align:left;">Trazando tus ideas,</p>
+            <p class = "titulosMontserrat estiloSobrepuesto">Trazando tus ideas,</p>
         </div>
          <div class="textoSobrepuestoTitulo2">
-            <p class = "titulosMontserrat" style="text-align:left;">Innovando tus stands</p>
+            <p class = "titulosMontserrat estiloSobrepuesto">Innovando tus stands</p>
         </div>
 
         <div class="textoSobrepuesto">
@@ -322,7 +337,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
   <div class="jumbotron vertical-center" style="margin-bottom: 10px;" >
    <!-- <h1  class="titulosMontserrat" >&iquest; Qui&eacute;nes Somos?</h1> -->
 
-	 <p class="titulosMontserrat" style="font-size:60px;" >&iquest; Qui&eacute;nes Somos?</p>
+	 <p class="titulosMontserrat fuenteSomos"  >&iquest; Qui&eacute;nes Somos?</p>
 
     <p  class="parrafosDroid" >Somos una sempresa 100 % mexicana con 20 a&ntilde;os de experiencia en el ramo de las expocisiones, respaldada con mas de 100 clientes activos, contando as&iacute;  con los recursos humanos, materiales y tecnol&oacute;gicos de la mas alta calidad para logar la satisfacci&oacute;n total del cliente.</p>
   </div>
@@ -406,62 +421,7 @@ require 'lib/PHPMailer/PHPMailerAutoload.php';
       <img src="images/assets/partners/Logo-cdmx.png" class="img-marca" alt="...">
     </a>
 
-	  <!--
-	  
-    <a href="#" class="marca">
-      <img src="images/assets/partners/powerade.png" class="img-marca" alt="...">
-    </a>
---->
-	  
-	  <a href="#" class="marca">
-      <img src="images/assets/partners/canelstipo.png" class="img-marca" alt="...">
-    </a>
-	  
-    <a href="#" class="marca">
-      <img src="images/assets/partners/profile-157457646.v11.png" class="img-marca" alt="...">
-    </a>
-  </div>
-  <div class="col-md-12" style="width: 100%">
-    <a href="#" class="marca">
-      <img src="images/assets/partners/sistema-educativo-justo-sierra.png" class="img-marca" alt="...">
-    </a>
 
-    <a href="#" class="marca">
-      <img src="images/assets/partners/Unknown.png" class="img-marca" alt="...">
-    </a>
-
-    <a href="#" class="marca">
-      <img src="images/assets/partners/logoSAR21.png" class="img-marca" alt="...">
-    </a>
-
-    <a href="#" class="marca">
-      <img src="images/assets/partners/kimberly-clark.png" class="img-marca" alt="...">
-    </a>
-
-	  <!---
-    <a href="#" class="marca">
-      <img src="images/assets/partners/canelstipo.png" class="img-marca" alt="...">
-    </a>
---->
-    <a href="#" class="marca">
-      <img src="images/assets/partners/LOGO-TRANSVISION-BIKE-01-1.png" class="img-marca" alt="...">
-    </a>
-
-    <a href="#" class="marca">
-      <img src="images/assets/partners/tec.png" class="img-marca" alt="...">
-    </a>
-  </div>
-
-  <div class="row">
-    
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <p class="marcas-txt">Algunas marcas que han trabajado con nosotros.</p>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- -->
 
   <div class="jumbotron conocenos">
     <div class="row">
